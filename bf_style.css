@@ -13,7 +13,7 @@ header{
 }
 
 .div_hd{
-	margin: 4em;
+	margin: 2em;
 	min-width: 50em;
 	margin-bottom: 1em;
 }
@@ -36,8 +36,7 @@ h1{
 }
 
 nav.nav{
-    padding-left: 3em;
-	padding-bottom: 2em;
+    padding-bottom: 2em;
     width: 1300px;
     margin: 2em;
    }
@@ -52,8 +51,7 @@ a.nav:visited {color: black;}
 a.nav:hover {text-decoration: underline;}
 
 .div_b1{
-	margin: 4em;
-	margin-top: 2em;
+	margin: 2em;
 	min-width: 30em;
 }
 

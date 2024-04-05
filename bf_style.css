@@ -1,34 +1,45 @@
 body{
 	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
-	margin: 2em;
+	display: block;
+	margin: 0;
+	width: 100%;
+	padding-top: 0px;
+	text-align: left;
+}
+
+header{
+	background-color: #fafafa;
+	padding-top: .1em;
 }
 
 .div_hd{
-	padding-left: 3em;
-	padding-right: 3em;
 	margin: 4em;
+	min-width: 50em;
+	margin-bottom: 1em;
 }
 
 .logo{
 	width: 10%;
 	display: inline-block;
-	padding-right: 3em;
+	min-width: 5em;
+	max-width: 15em;
 }
 
-.h1{
+h1{
 	display: inline-block;
 	font-size: 2rem;
 	font-weight: 750;
 	line-height: 1.25px;
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
+	padding-left: 1em;
 }
 
 nav.nav{
     padding-left: 3em;
 	padding-bottom: 2em;
     width: 1300px;
-    margin: 4em;
+    margin: 2em;
    }
 a.nav:link{
     padding-right: 2em;
@@ -42,6 +53,13 @@ a.nav:hover {text-decoration: underline;}
 
 .div_b1{
 	margin: 4em;
+	margin-top: 2em;
+	min-width: 30em;
+}
+
+.h1_b{
+	padding-left: 0;
+	min-width: 15em;
 }
 
 p{
@@ -52,6 +70,7 @@ p{
 img{
 	width: 15%;
 	height: 15%;
+	min-width: 8em;
 }
 
 .map{
@@ -59,9 +78,9 @@ img{
 	height: 50%;
 }
 
-nav2{
-    padding-left: 3em;
+.nav2{
 	padding-bottom: 2em;
     width: 1300px;
-    margin: 4em;
+    margin-top: 1em;
+    margin-bottom: 1em;
    }

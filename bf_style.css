@@ -40,6 +40,14 @@ h1{
 	color: #27492a;
 }
 
+h2{
+	display: inline-block;
+	font-size: 1.5rem;
+	padding-left: 0.5em;
+	margin-bottom: 0.1rem;
+	color: #27492a;
+}
+
 nav.nav{
     padding: 1em;
     font-size: 16px;
@@ -76,4 +84,10 @@ p{
 img{
 	width: 90%;
 	min-width: 8em;
+}
+.img_sm{
+	width: 20%;
+	min-width: 5em;
+	display: block;
+	margin: auto;
 }

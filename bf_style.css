@@ -50,14 +50,13 @@ h1{
 h2{
 	display: inline-block;
 	font-size: 1.5rem;
-	*padding-left: 0.5em;
 	margin-bottom: 0.1rem;
 	color: #27492a;
 }
 
 nav.nav{
     padding: 1em;
-    font-size: 16px;
+    font-size: 1.5em;
     margin: 0em;
     border-top: 5px solid #27492a;
    }

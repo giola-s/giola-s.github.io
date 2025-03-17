@@ -10,6 +10,13 @@ body{
 	background-color: #d7ead9;
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  body {
+    background: #999;
+    width: 100%;
+  }
+}
+
 .div_hd{
 	margin-top: 2em;
 	margin-bottom: 1em;
@@ -43,7 +50,7 @@ h1{
 h2{
 	display: inline-block;
 	font-size: 1.5rem;
-	padding-left: 0.5em;
+	*padding-left: 0.5em;
 	margin-bottom: 0.1rem;
 	color: #27492a;
 }
@@ -82,8 +89,7 @@ p{
 }
 
 img{
-	width: 90%;
-	min-width: 8em;
+	width: 85%;
 }
 .img_sm{
 	width: 20%;

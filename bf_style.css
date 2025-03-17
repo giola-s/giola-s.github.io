@@ -8,26 +8,26 @@ body{
 	padding-top: 0px;
 	text-align: center;
 	background-color: #d7ead9;
-	*min-width: 405px;
 }
 
 .div_hd{
 	margin-top: 2em;
-	margin-left: auto;
-	margin-right: auto;
+	*margin-left: auto;
+	*margin-right: auto;
 	padding-bottom: 1em;
-	width: 85%;
-	background-color: white;
 	}
 
 header{
-	border-bottom: 5px solid #27492a;
+	background-color: white;
+	width: 85%;
+		margin-left: auto;
+	margin-right: auto;
 }
 
 h1{
 	display: inline-block;
-	font-size: 6rem;
-	padding-left: 0.5em;
+	font-size: 5rem;
+	padding-left: 2%;
 	color: #27492a;
 }
 
@@ -42,6 +42,7 @@ nav.nav{
     font-size: 1.5em;
     margin: 0em;
     border-top: 5px solid #27492a;
+    border-bottom: 5px solid #27492a;
    }
 a.anav{
 	display: inline-block;
@@ -76,8 +77,7 @@ p{
 	position: relative;
 	top: 2rem;
 	min-width: 5em;
-	*width: 45em;
-	max-width: 15em;
+	max-width: 14em;
 }
 
 @media (max-width: 750px){

@@ -15,7 +15,7 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 1em;
-	min-width: 70em;
+*	min-width: 70em;
 	width: 85%;
 	background-color: white;
 	}
@@ -56,7 +56,6 @@ a.anav:hover {text-decoration: underline;}
 
 .div_b1{
 	width: 85%;
-	min-width: 70em;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: white;
@@ -71,6 +70,14 @@ p{
 	max-width: 85%;
 	margin-left: auto;
 	margin-right: auto;
+
+}
+
+@media (max-width: 750px){
+	p{
+		font-size: 2em;
+		color: red;
+	}
 }
 
 .logo{

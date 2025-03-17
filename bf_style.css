@@ -12,15 +12,13 @@ body{
 
 .div_hd{
 	margin-top: 2em;
-	*margin-left: auto;
-	*margin-right: auto;
 	padding-bottom: 1em;
 	}
 
 header{
 	background-color: white;
 	width: 85%;
-		margin-left: auto;
+	margin-left: auto;
 	margin-right: auto;
 }
 

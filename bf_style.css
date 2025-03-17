@@ -8,6 +8,7 @@ body{
 	padding-top: 0px;
 	text-align: center;
 	background-color: #d7ead9;
+	*min-width: 405px;
 }
 
 .div_hd{
@@ -31,7 +32,6 @@ h1{
 }
 
 h2{
-	*display: inline-block;
 	font-size: 1.5rem;
 	margin-bottom: 0.1rem;
 	color: #27492a;
@@ -72,18 +72,30 @@ p{
 
 }
 
+.logo{
+	position: relative;
+	top: 2rem;
+	min-width: 5em;
+	*width: 45em;
+	max-width: 15em;
+}
+
 @media (max-width: 750px){
 	p{
 		font-size: 1.5em;
 	}
 }
 
-.logo{
-	position: relative;
-	top: 2em;
-	min-width: 5em;
-	width: 45em;
-	max-width: 15em;
+@media (max-width: 500px){
+	h1{
+		padding-left: 0em;
+		font-size: 2em;
+		padding-top: .5em;
+	}
+	.logo{
+		width: 2em;
+		top: .5em;
+	}
 }
 
 .start{

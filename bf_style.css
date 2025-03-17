@@ -1,6 +1,6 @@
 body{
 	font-family: Arial, Verdana, helvetica, sans-serif;
-	font-size: 100%;
+	font-size: 14px;
 	display: block;
 	margin: 0;
 	width: 100%;
@@ -86,10 +86,12 @@ a.anav:hover {text-decoration: underline;}
 p{
 	text-align: left;
 	line-height: 1.6em;
+	font-size: 150%;
 }
 
 img{
-	width: 85%;
+	width: 45em;
+	max-width: 40em;
 }
 .img_sm{
 	width: 20%;

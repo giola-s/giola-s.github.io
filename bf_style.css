@@ -36,12 +36,6 @@ h2{
 	padding-top: 0.2em;
 }
 
-.ptit{
-	color: #27492a;
-	font-weight: bold;
-	margin-bottom: -0.1%;
-}
-
 .hitta{
 	padding-top: 0;
 	margin: auto;
@@ -146,4 +140,42 @@ p{
 
 a.anavt{
 	width: 150px;
+}
+
+.div_st{
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.p_st{
+	width: 350px;
+	text-align: left;
+	display: table;
+	padding-right: 0;
+}
+
+div.av{
+	width: 45%;
+	display: table;
+	margin: auto;
+	border-top: 1.5px solid #27492a;
+    border-bottom: 1.5px solid #27492a;
+}
+
+.ptit{
+	color: #27492a;
+	font-weight: bold;
+}
+
+.p_me{
+	width: 45%;
+	text-align: left;
+	display: table;
+	padding: 0;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+img.sz{
+	height: 120px;
 }

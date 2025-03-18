@@ -33,8 +33,19 @@ h2{
 	font-size: 1.5rem;
 	margin-bottom: 0.1rem;
 	color: #27492a;
+	padding-top: 0.2em;
 }
 
+.ptit{
+	color: #27492a;
+	font-weight: bold;
+	margin-bottom: -0.1%;
+}
+
+.hitta{
+	padding-top: 0;
+	margin: auto;
+}
 nav.nav{
     padding: 1em;
     font-size: 1.2em;
@@ -109,4 +120,16 @@ p{
 	min-width: 5em;
 	display: block;
 	margin: auto;
+}
+
+.map{
+	width: 50%;
+	height: 50%;
+}
+
+.nav2{
+	padding-bottom: 2em;
+    width: 1300px;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }

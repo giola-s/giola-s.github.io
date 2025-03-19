@@ -83,28 +83,6 @@ p{
 	max-width: 14em;
 }
 
-@media (max-width: 750px){
-	p{
-		font-size: 1.5em;
-	}
-	h2{
-		font-size: 1.5em;
-	}
-}
-
-@media (max-width: 500px){
-	h1{
-		padding-left: 0em;
-		font-size: 2em;
-		padding-top: .5em;
-	}
-
-	.logo{
-		width: 2em;
-		top: .5em;
-	}
-}
-
 .start{
 	width: 85%;
 	max-width: 40em;
@@ -169,6 +147,7 @@ div.av{
 
 .p_me{
 	width: 45%;
+	min-width: 155px;
 	text-align: left;
 	display: table;
 	padding: 0;
@@ -178,4 +157,27 @@ div.av{
 
 img.sz{
 	height: 120px;
+}
+
+
+@media (max-width: 750px){
+	p{
+		font-size: 1.5em;
+	}
+	h2{
+		font-size: 1.5em;
+	}
+}
+
+@media (max-width: 500px){
+	h1{
+		padding-left: 0em;
+		font-size: 2em;
+		padding-top: .5em;
+	}
+
+	.logo{
+		width: 2em;
+		top: .5em;
+	}
 }
